@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    <div class="calculator">
+        <h1 class="heading">Multi-Function Calculator</h1>
+
+    <input type="number" placeholder="Number 1" id="num1" class="inputfield"> <br><br>
+     
+    <input type="number" placeholder="Number 2" id="num2" class="inputfield"><br><br>
+
+    <input type="number" placeholder="Result" id="result" class="inputfield"> <br> <button id="clearButton" onclick="clearInput()">Clear</button><br><br>
+<div class="buttons">
+    <button onclick="add()">Addition (+)</button>
+      <button onclick="subtract()">Subtraction (-)</button>
+      <button onclick="multiplication()">Multiplication (*)</button>
+      <button onclick="division()">Division (/)</button>
+      <button onclick="calculateSquare()">Calculate Square(x²)</button>
+      <button onclick="calculateCube()">Calculate Cube(x³)</button>
+    </div>
+
+    <p class="paragraph">(  NB:-Calculate only the square(x²) and cube(x³) of the number entered in the first input box.  )</p>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
